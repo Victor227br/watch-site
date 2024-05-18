@@ -1,0 +1,190 @@
+*{
+    font-family: 'Roboto';
+}
+body, h1, h2, p, ul, li, a {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+.superior{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    background: seagreen;
+    color: gold;
+}
+
+.superior-logo {
+    padding: 10px;
+}
+
+
+.menu-nav  {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-nav a {
+   /* display: block; */
+   color: white;
+   font-size: 1.15em;
+}
+
+.menu-nav a:hover{
+   color: gold;
+}
+
+.links {
+ display: flex;
+ flex-direction: row;
+}
+
+.links li{
+margin: 20px;
+}
+
+.relogio-img { 
+    /* Rectangle 15 */
+    display: flex;
+    object-fit:cover;
+    border-radius: 5%;
+
+}
+
+.relogio-img img { 
+    width: 100%;
+    height: 191px;
+
+}
+
+.introduçao {
+    color: gold;
+    
+}
+
+.titulo {
+    display: flex;
+    color: gold;
+    justify-content: center;
+    font-size: 3em;
+    padding: 3vw;
+}
+
+.alinhamento {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.info {
+    width: 40vw; 
+    align-content: center;
+    font-size: 1,5em;
+}
+
+
+.imagem {
+    width: 30vw;
+    border-radius: 20%;
+}
+
+.quem {
+    padding: 5vw;
+    background-color: seagreen;
+    color: white;
+}
+
+.produtos2 {
+ flex-direction: row-reverse;
+}
+
+.maps {
+
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+
+.container{
+    max-width: 1280px; 
+    margin: 5vw;
+    margin-left: 25vw;
+}
+
+
+form {
+    background-color: grey;
+    max-width: 500px;
+    height: 450px;
+    padding: 60px;
+    border-radius: 20px;
+    padding-left: 25px;
+
+}
+
+form h1 {
+    text-align: center;
+    font-size: 30px;
+    color: seagreen;
+    background-color: white;
+    background-color: grey;
+}
+
+form p {
+    text-align: center;
+    margin: 20px;
+    background-color: white;
+    font-size: 2vw;
+    background-color: grey;
+}
+
+.inupt-single {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.inupt-single label {
+    position: absolute;
+    left: 0;
+    bottom: 5px; 
+
+}
+
+.input {
+    width: 100;
+    border: 0;
+    border-bottom: 2px solid #ccc ;
+    padding: 5px;
+    font-size: 17px;
+    display: flex;
+}
+
+form .inupt-single .input:focus ~ label {
+    transform: translateY(-20px);
+    font-size: 12px;
+}
+
+.btn {
+    width: 100%;
+    text-align: center;
+    padding-top: 3vw;
+}
+
+form input[type=submit]{
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 10px;
+    background-color: seagreen;
+    color: white;
+    cursor:pointer;
+}

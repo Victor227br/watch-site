@@ -117,12 +117,17 @@ margin: 20px;
 .container{
     max-width: 1280px; 
     margin: 5vw;
-    margin-left: 25vw;
+    margin-left: 30vw;
+}
+
+.form-container{
+background-color: seagreen;
+padding: 20px;
 }
 
 
 form {
-    background-color: grey;
+    background-color: white;
     max-width: 500px;
     height: 450px;
     padding: 60px;
@@ -135,56 +140,59 @@ form h1 {
     text-align: center;
     font-size: 30px;
     color: seagreen;
-    background-color: white;
-    background-color: grey;
+    background-color: white;;
 }
 
 form p {
     text-align: center;
-    margin: 20px;
+    margin: 30px;
     background-color: white;
     font-size: 2vw;
-    background-color: grey;
-}
-
-.inupt-single {
-    position: relative;
     display: flex;
     justify-content: center;
 }
 
-.inupt-single label {
-    position: absolute;
-    left: 0;
-    bottom: 5px; 
 
-}
-
-.input {
-    width: 100;
-    border: 0;
-    border-bottom: 2px solid #ccc ;
-    padding: 5px;
-    font-size: 17px;
+.input-single {
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 45px;
+    border: 0;
+    border-bottom: 20px;
+    font-size: 5vw;
 }
 
-form .inupt-single .input:focus ~ label {
-    transform: translateY(-20px);
-    font-size: 12px;
+.input{
+    border:0px;
+    border-bottom: 3px solid seagreen;
+    font-size: 17px;
 }
+
 
 .btn {
     width: 100%;
     text-align: center;
-    padding-top: 3vw;
 }
 
-form input[type=submit]{
-    padding: 10px 40px;
-    border: 0;
+form input[type=submit] { 
+    padding:5px 40px;
+    border:0;
     border-radius: 10px;
     background-color: seagreen;
-    color: white;
+    color:gold;
+    font-size: 20px;
     cursor:pointer;
+    height: 2vw;
 }
+
+.rodape{
+    background-color: seagreen;
+}
+
+.formula {
+    color: grey;
+} 
+
+
+

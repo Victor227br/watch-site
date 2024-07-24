@@ -1,5 +1,6 @@
 *{
     font-family: 'Roboto';
+    overflow-x: hidden;
 }
 body, h1, h2, p, ul, li, a {
     margin: 0px;
@@ -65,6 +66,7 @@ margin: 20px;
 
 .introduçao {
     color: gold;
+    font-size: 2em;
     
 }
 
@@ -194,5 +196,30 @@ form input[type=submit] {
     color: grey;
 } 
 
+#burguer{
+    display: none;
+}
 
+@media(max-width:450px) {
+body { overflow-x: hidden;}
+
+.superior-logo{
+justify-content: center;
+}
+
+.menu-nav{
+    display: none;
+   
+}
+
+#burguer{
+    padding: 10px;
+    display: block;
+    cursor: pointer
+}
+.links{
+    margin: 30px;
+    flex-direction: row;
+}
+}
 

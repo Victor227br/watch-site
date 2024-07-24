@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Rolex</title>
+	<title>Watch,</title>
     <link rel="stylesheet" href="./style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com"> 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 	<link href="https: //fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="folha de estilo" >
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
  </head>
 <body>
     <header class="superior-bg">
     <div class="superior">
         <div class="superior-logo">
-		<h1>Rolex</h1>
+		<h1>watch</h1>
 	</div>
-	
-	 <nav class="menu-nav">
+	<span id="burguer" class="material-symbols-outlined" onclick="clickmenu()">menu</span>
+	 <nav id="menulinks"class="menu-nav">
 		<ul class="links">
 			<li> <a href="#Home">Home</a></li>
 			<li> <a href="#Sobre">Sobre</a></li>
@@ -28,20 +29,22 @@
           
     </header>
 
-	 <div class="relogio-img">
-     <img src="Relógio.jpg" alt="relogio-img">   
-    </div> 
-			<h1 class="titulo">Rolex</h1>
+		<!-- <div class="relogio-img">
+		<img src="Relógio.jpg" alt="relogio-img">   
+		</div>  -->
+
+			<h1 class="titulo">Watch,</h1>
 		
 	</section>
 
 	<section class=" alinhamento">  <!-- é utilizado para agrupar conteúdo relacionado numa secção separada da página -->
 		<div class="info">
 			<h1 class="introduçao">Introdução</h1>
-		 	<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-				, when an unknown print
-				er took a galley of type and scrambled it to make a type specimen book </p>
+		 	<p> Bem-vindo ao mundo da relojoaria de luxo. Nossa empresa, Watch, é mais que uma fabricante de relógios; somos guardiões de uma tradição que une arte e engenharia
+				Desde nossa fundação em 1855, em Londre, nos dedicamos a criar relógios que marcam momentos especiais.
+Em Watch,, combinamos técnicas artesanais tradicionais com tecnologias de ponta para produzir peças exclusivas e personalizadas. Cada relógio é feito com precisão e atenção aos mínimos detalhes, garantindo durabilidade e elegância
+				Descubra a essência da elegância e inovação em Watch,, onde o tempo é uma obra de arte.
+			</p>
 		</div>
 			<img class="imagem" src="Relógio.jpg" alt="sobre-img2" id="sobre-img">
 	</section>y
@@ -108,12 +111,6 @@
 				<div class="input-single">
 					<input type="text" id="nome-box" class="input" placeholder="Número de telefone">
 					<label for="nome-box"></label>
-				</div>
-					
-			<div class="btn">
-				<input type="submit" value="Enviar">
-			</div>
-
 		</form>
 
 		<div class="redes">
@@ -121,6 +118,14 @@
 
 	</section>
 
-	
+	<script>
+		function clickmenu(){
+	if (menulinks.style.display =='block') {
+		menulinks.style.display ='none'
+	} else {
+		menulinks.style.display ='block'}
+	}
+		
+	</script>
 </body>
 </html>
